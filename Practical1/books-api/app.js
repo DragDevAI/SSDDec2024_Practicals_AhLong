@@ -11,7 +11,22 @@ const port = 3000;
 let books = [
     { id: 1, title: 'The Lord of the Rings', author: 'J.R.R. Tolkien' },
     { id: 2, title: 'Pride and Prejudice', author: 'Jane Austen' },
- ];
+    {"id":1,"title":"Mannequin 2: On the Move","author":"Örjan"},
+    {"id":2,"title":"20,000 Leagues Under the Sea","author":"Tú"},
+    {"id":3,"title":"Cocaine Cowboys II: Hustlin' With the Godmother","author":"Yénora"},
+    {"id":4,"title":"Bluebeard","author":"Mylène"},
+    {"id":5,"title":"Last Circus, The (Balada triste de trompeta) (Sad Trumpet Ballad, A)","author":"Maëlle"},
+    {"id":6,"title":"Lady and the Reaper, The (Dama y la muerte, La)","author":"Personnalisée"},
+    {"id":7,"title":"Prospero's Books","author":"Gisèle"},
+    {"id":8,"title":"Man on the Train (Homme du train, L')","author":"Sélène"},
+    {"id":9,"title":"Any Day Now","author":"Mélys"},
+    {"id":10,"title":"Big Hero 6","author":"Torbjörn"},
+    {"id":11,"title":"Chain Camera","author":"Mahélie"},
+    {"id":12,"title":"Panic","author":"Uò"},
+    {"id":13,"title":"Condemned, The","author":"Annotée"},
+    {"id":14,"title":"Semper Fi","author":"André"},
+    {"id":15,"title":"The Beautiful Story","author":"Cécilia"}
+];
 
  // Parse incoming JSON data in requests
 app.use(express.json())
